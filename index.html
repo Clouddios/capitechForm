@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avaliação Capitech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="capitech.png" alt="Logo Capitech" class="logo-capi" />
+    <h2>Como você avalia o Projeto Mobile da Capitech?</h2>
+    <div class="stars" id="stars">
+      <span data-value="1">☆</span>
+      <span data-value="2">☆</span>
+      <span data-value="3">☆</span>
+      <span data-value="4">☆</span>
+      <span data-value="5">☆</span>
+    </div>
+    <textarea id="comentario" rows="4" placeholder="Deixe seu comentário (opcional)..."></textarea>
+    <button onclick="enviar()" id="btnEnviar">Enviar Avaliação</button>
+    <p class="thanks" id="resposta"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
