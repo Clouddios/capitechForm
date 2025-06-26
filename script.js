@@ -44,7 +44,7 @@ function enviar() {
   btn.disabled = true;
   btn.textContent = "Enviando...";
 
-  fetch("https://script.google.com/macros/s/AKfycbx3bdkGV8EGhkkTTdj-8ANcswhUfRASToiA25liO0csv2hSBAdvWyqb5MXiJRI_5S8ruw/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbzdC-DLjdgCcyVNbnngqc7LLbKzSkv9NvvkjrnqS-R2M3tTh9sb-1dkDpg3nRKbeLUDmQ/exec", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
